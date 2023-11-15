@@ -5,7 +5,7 @@ public class Main {
         Coffee coffee = CoffeeFactory.makeCoffeeByType("Moka");
 
         if(coffee == null){
-            throw new Exception("The machine doesn't have this coffee");
+            throw new Exception("The machine doesn't have this coffee!");
         }
 
         coffee.grindCoffee();
